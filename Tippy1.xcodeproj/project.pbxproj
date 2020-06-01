@@ -13,6 +13,8 @@
 		BB02478D23DA98360097295D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB02478B23DA98360097295D /* Main.storyboard */; };
 		BB02478F23DA98370097295D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB02478E23DA98370097295D /* Assets.xcassets */; };
 		BB02479223DA98370097295D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB02479023DA98370097295D /* LaunchScreen.storyboard */; };
+		BB799571248536B0005568F1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB799570248536B0005568F1 /* SettingsViewController.swift */; };
+		BB79957524855E5B005568F1 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB79957424855E5B005568F1 /* SettingsStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BB02478E23DA98370097295D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB02479123DA98370097295D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB02479323DA98370097295D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB799570248536B0005568F1 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		BB79957424855E5B005568F1 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				BB02478523DA98360097295D /* AppDelegate.swift */,
 				BB02478723DA98360097295D /* SceneDelegate.swift */,
 				BB02478923DA98360097295D /* ViewController.swift */,
+				BB799570248536B0005568F1 /* SettingsViewController.swift */,
+				BB79957424855E5B005568F1 /* SettingsStore.swift */,
 				BB02478B23DA98360097295D /* Main.storyboard */,
 				BB02478E23DA98370097295D /* Assets.xcassets */,
 				BB02479023DA98370097295D /* LaunchScreen.storyboard */,
@@ -141,6 +147,8 @@
 				BB02478A23DA98360097295D /* ViewController.swift in Sources */,
 				BB02478623DA98360097295D /* AppDelegate.swift in Sources */,
 				BB02478823DA98360097295D /* SceneDelegate.swift in Sources */,
+				BB79957524855E5B005568F1 /* SettingsStore.swift in Sources */,
+				BB799571248536B0005568F1 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 536VNQBDLX;
 				INFOPLIST_FILE = Tippy1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 536VNQBDLX;
 				INFOPLIST_FILE = Tippy1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

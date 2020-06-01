@@ -10,11 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
     @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
+    
+    var settings = SettingsStore()
+    
+    var settingManager = SettingsViewController()
+    
+    override func viewWillAppear(_ animated: Bool){
+        super.viewWillAppear(animated)
+        tipControl.selectedSegmentIndex = settings.defaultTipIndex
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,7 +43,8 @@ class ViewController: UIViewController {
         totalLabel.text = String (format: "$%.2f", total)
     }
     
+    func settingsControlPressed(_ text: Int) {
+        tipControl.selectedSegmentIndex = text
+    }
     
-
 }
-
